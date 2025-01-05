@@ -72,16 +72,17 @@ python main.py
 
 ### Distribución de la población por continente 🌎
 
-Exploramos cómo se distribuyen las puntuaciones en matemáticas, lectura y escritura.
+Exploramos cómo se distribuye la poblacion entre los continentes
 
 ```python
-consulta_sql1 = "SELECT Name, population FROM proyecto_integrador.country WHERE continent = 'Europe';"  # Cambia esto a tu consulta deseada
+consulta_sql3 = "SELECT ci.name as City, ci.population as Population, co.name as Country FROM city as ci LEFT JOIN country as co ON ci.countrycode = co.code WHERE co.continent = 'Europe' ORDER BY ci.POPULATION desc;"  # Cambia esto a tu consulta deseada
 
 # Llamamos a la función y mostramos el DataFrame
-data_frame = obtener_datos_sql(consulta_sql1)
+data_frame = obtener_datos_sql(consulta_sql3)
 if data_frame is not None:
     print(data_frame)
-```
+
+
 
 💡 Observaciones:
 
