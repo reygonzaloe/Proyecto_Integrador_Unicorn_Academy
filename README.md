@@ -1,30 +1,29 @@
-#  **Análisis de Datos Mundiales** 🌎📊
+#  ** Proyecto Integrador: Análisis de Datos Mundiales** 🌎📊
 
-El tema principal que explora este proyecto es "la integración y manipulación de bases de datos relacionales (MySQL) con aplicaciones desarrolladas en Python". Este tema abarca múltiples aspectos del desarrollo de software.
+Este proyecto forma parte del bootcamp de análisis de datos en Unicorn Academy 🎓. Aquí exploraremos diversos aspectos relacionados con la población y el tamaño geográfico de los países a nivel mundial, utilizando herramientas como SQL para el análisis y GitHub para la documentación.
 ---
 
-## 📑 **Índice**
+🚀 Objetivos
 
-1. [📚 **Descripción del Proyecto**](#descripción-del-proyecto)
-2. [⚙️ **Configuración del Entorno**](#configuración-del-entorno)
-3. [🗄️** Importación de la Base de Datos**](#importacion_de_datos)
-   💻 Conexión de Python con MySQL
- - Configuración de la conexión 🔗
- - Consultas SQL desde Python 📑
- - Población de países europeos 🌍
- - Cinco países más grandes por superficie 🌏
- - Población total por continente 🧮
- - Ciudades más pobladas de Europa 🏙️
- - Actualización de datos en la base 🖊️
-📈 Análisis y Visualizaciones
- - Distribución de la población por continente 🌎
- - Comparación de superficie de países 🗺️
- - Población de países europeos 📊
- - Ciudades más pobladas de Europa 🏛️ 
- - Impacto de la actualización en China 🇨🇳
-4. [📌 **Conclusiones**](#conclusiones)
-5. [🚀 **Cómo Ejecutar**](#cómo-ejecutar)
-6. [📂 **Estructura del Proyecto**](#estructura-del-proyecto)
+Organizar y estructurar la base de datos: Crear un esquema bien estructurado para almacenar los datos relacionados con los patrones de sueño de los estudiantes. Esto incluye dividir la información en varias tablas para facilitar el análisis y mejorar el rendimiento de las consultas.
+
+Aplicar las mejores prácticas de SQL: Utilizar comandos SQL eficientes y organizar el código en archivos específicos para cada paso (selección del esquema, creación de tablas, popular las tablas, verificación de datos y limpieza).
+
+Facilitar el análisis de datos: Organizar las tablas de forma que sea fácil realizar análisis y visualizaciones en herramientas externas. Utilizar las relaciones entre las tablas para facilitar las consultas complejas, demostrando un uso avanzado de SQL, incluyendo el uso de JOIN.
+
+Limpieza de datos: Detectar y manejar los valores nulos, duplicados y cualquier inconsistencia en los datos, utilizando técnicas de limpieza para asegurar que los datos sean precisos y confiables para el análisis.
+
+Diseñar vistas SQL avanzadas: La finalidad es analizar y resumir datos clave, como hábitos de sueño, actividad física y tiempo frente a pantallas, permitiendo una interpretación rápida y eficiente de los resultados.
+
+Implementar stored procedures personalizados: Automatizar consultas complejas, generar reportes dinámicos y comparar datos, optimizando el análisis y destacando habilidades avanzadas en SQL.
+
+Documentar y explicar el proceso: Documentar cada paso del proyecto de forma detallada, explicando el propósito de cada consulta SQL, para que el proyecto sea fácilmente entendible para otros usuarios. Además, presentar los scripts de SQL bien organizados en la carpeta sql del repositorio.
+
+Demostrar habilidades en SQL: Mostrar el dominio de funciones avanzadas de SQL (como JOIN, GROUP BY, HAVING, etc.) y la capacidad para manejar grandes cantidades de datos de forma eficiente.
+
+Crear un repositorio bien organizado: Mantener un repositorio de GitHub limpio y bien estructurado con una documentación clara y accesible. Proporcionar un índice interactivo al principio del README.md para facilitar la navegación por los scripts SQL.
+
+Optimizar la base de datos para futuras visualizaciones: Organizar las tablas de forma que los datos sean fácilmente exportables a herramientas de visualización de datos, como Power BI o Tableau, permitiendo un análisis visual efectivo en el futuro.
 
 ---
 
