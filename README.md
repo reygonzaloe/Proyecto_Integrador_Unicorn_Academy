@@ -6,14 +6,11 @@ Este proyecto forma parte del bootcamp de análisis de datos en Unicorn Academy 
 
 ## 📚 **Contenido**
 
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Usage](#usage)
-- [Results](#results)
-- [Data Import](#data-import)
-- [License](#license)
-- [FAQ](#faq)
-
+- [Instalacion](#instalacion)
+- [Variables de Entorno](#Variable-de-entorno)
+- [Utilizacion](#Utilizacion)
+- [Resultados](#resultados)
+- [Importacion de Datos](#Importacion-de-datos)
 
 
 
