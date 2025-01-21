@@ -4,15 +4,17 @@ Este proyecto forma parte del bootcamp de análisis de datos en Unicorn Academy 
 ---
 
 
-## 📚 **Descripción del Proyecto**
+## 📚 **Contenido**
 
-Analizamos un dataset ........
+Installation
+Environment Variables
+Usage
+Results
+Data Import
+License
+FAQ
 
-- **Continente.
--   **Paises**.
--   **Populacion**.
--   **Lenguaje**.
--   **Expectativa de vida**.
+
 
 Este análisis responde preguntas como:
 
