@@ -6,7 +6,7 @@ Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy �
 
 ## 📚 **Contenido**
 
-- [Instalacion](#instalacion)
+- [Configuracion del Entorno](#Configuracion-del-entorno)
 - [Variables de Entorno](#Variable-de-entorno)
 - [Utilizacion](#Utilizacion)
 - [Resultados](#resultados)
@@ -38,15 +38,15 @@ python main.py
 ```
 ## Variables de Entorno:
 ```
-Crea un archivo .env en la raíz del proyecto y define las siguientes variables de entorno:
-DB_HOST=localhost
-DB_USER=tu_usuario
-DB_PASSWORD=tu_contraseña
-DB_NAME=proyecto_integrador
+#### Crea un archivo .env en la raíz del proyecto y define las siguientes variables de entorno:
+* DB_HOST=localhost
+* DB_USER=tu_usuario
+* DB_PASSWORD=tu_contraseña
+* DB_NAME=proyecto_integrador
 
-Asegúrate de reemplazar tu_usuario y tu_contraseña con tus credenciales de MySQL.
-
+##### Asegúrate de reemplazar tu_usuario y tu_contraseña con tus credenciales de MySQL.
 ```
+
 ## Utilizacion:
 
 * Importa la base de datos World en MySQL utilizando los scripts proporcionados.
