@@ -6,11 +6,12 @@ Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy �
 
 ## 📚 **Contenido**
 
-- [Configuracion del Entorno](#Configuracion-del-entorno)
+- [Instalacion](#Instalacion)
 - [Variables de Entorno](#Variable-de-entorno)
 - [Utilizacion](#Utilizacion)
 - [Resultados](#resultados)
-- [Importacion de Datos](#Importacion-de-datos)
+- [Visualizaciones](#Visualizaciones)
+- [Consideraciones Importantes](#Consideraciones-Importantes)
 - [Licencia](#Licencia)
 - [Informacion Util](#Informacion-util).
 ---
@@ -34,7 +35,7 @@ pip install mysql-connector-python
 ```bash
 python main.py
 ```
-# Instalacion
+#### Asegúrese de tener instalado Python 3.10.13 o superior.
 ```
 ## Variables de Entorno:
 ```
@@ -45,14 +46,47 @@ python main.py
 * DB_NAME=proyecto_integrador
 
 ##### Asegúrate de reemplazar tu_usuario y tu_contraseña con tus credenciales de MySQL.
-```
+
 
 ## Utilizacion:
 
-* Importa la base de datos World en MySQL utilizando los scripts proporcionados.
-* Ejecuta el script de Python que contiene las consultas SQL para interactuar con la base de datos.
+1. Importación de Datos: Utiliza los scripts en formato .sql para importar la base de datos World en MySQL a través de MySQL Workbench.
+
+2. Conexión a MySQL: La función obtener_datos_sql(query) permite realizar consultas SQL a la base de datos. Asegúrate de definir la consulta SQL que deseas ejecutar.
+
+# consulta_sql1 = "SELECT Name as Pais, population as Poblacion FROM proyecto_integrador.country WHERE continent = 'Europe';"
+data_frame1 = obtener_datos_sql(consulta_sql1)
+
+3. Actualización de Datos: Para actualizar datos en la base de datos, utiliza la función actualizar_datos_sql(update) con un comando SQL de tipo UPDATE
+
+update = "UPDATE country SET population = 1500000000 WHERE code = 'CHN';"
+actualizar_datos_sql(update)
+```
+**Resultados**
+Los resultados de las consultas se almacenan en DataFrames de pandas y se pueden visualizar utilizando matplotlib. Por ejemplo, para mostrar la población de los países europeos:
+
+plt.figure(figsize=(10, 8))
+plt.barh(data_frame1['Pais'], data_frame1['Poblacion'], color='darkviolet', edgecolor="purple", linewidth=1)
+plt.title('Población de Países en Europa')
+plt.xlabel('Población')
+plt.ylabel('País')
+plt.grid(axis='x')
+plt.show()
+
+```
+**Visualizacion **
+
+Se generan diversas visualizaciones a partir de las consultas realizadas. Algunos ejemplos incluyen:
+
+Gráficos de barras que muestran la población de los países europeos.
+Gráficos que representan la superficie de los cinco países más grandes del mundo.
+Visualizaciones de la población total por continente y las ciudades más pobladas de Europa.
 
 ---
+```
+
+```
+
 ## 💡 Informacion Util
 
 
