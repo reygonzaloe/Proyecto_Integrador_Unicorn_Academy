@@ -36,7 +36,12 @@ pip install mysql-connector-python
 python main.py
 ```
 #### Asegúrese de tener instalado Python 3.10.13 o superior.
+### 4️⃣ Instalar Jupyter Notebook
+```bash
+pip install notebook
 ```
+
+---
 ## Variables de Entorno:
 ```
 #### Crea un archivo .env en la raíz del proyecto y define las siguientes variables de entorno:
