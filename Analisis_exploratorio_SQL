@@ -1,0 +1,70 @@
+# Analisis Exploratorio
+
+SELECT * FROM proyecto_integrador.city;
+
+SELECT * FROM proyecto_integrador.country;
+
+SELECT * FROM proyecto_integrador.countrylanguage;
+
+
+
+# Hay 239 países únicos, y no hay duplicados
+SELECT 
+	count(Code) as CantPaises,
+    count(distinct(Code)) as CantPaisesUnicos
+FROM country;
+
+
+
+# Población mundial y población por continente, en número y porcentaje respecto del total
+SELECT 
+	sum(Population) as PoblacionMundial
+FROM country;
+
+SELECT 
+	Continent,
+    sum(population) as Poblacion,
+    sum(population)*100/(SELECT sum(Population) FROM country) as "%PoblacionMundial"
+FROM country
+group by Continent
+ORDER BY sum(population) desc;
+
+
+
+# Top 10 países con más población, en número y porcentaje respecto del total
+SELECT 
+	Name,
+    Population,
+	Population*100/(SELECT sum(Population) FROM country) as "%PoblacionMundial"
+FROM country
+ORDER BY Population desc
+LIMIT 10;
+
+
+# Superficie mundial, y superficie por continente, en km2 y porcentaje
+SELECT 
+	sum(SurfaceArea) as SuperficieMundial
+FROM country;
+
+SELECT 
+	Continent,
+    sum(SurfaceArea) as SuperficieKm2,
+    sum(SurfaceArea)*100/(SELECT sum(SurfaceArea) FROM country) as "%SuperficieMundial"
+FROM country
+group by Continent
+ORDER BY sum(SurfaceArea) desc;
+
+
+
+# Hay 458 idiomas y dialectos diferentes en el mundo
+SELECT
+	count(distinct(language))
+FROM countrylanguage;
+
+
+
+# Fernando de la Rúa era el presidente de Argentina, su mandato duró del año 1999 al año 2001
+SELECT
+	HeadOfState
+FROM country
+WHERE name = 'Argentina';
