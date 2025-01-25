@@ -16,7 +16,7 @@ Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy �
 - [Informacion Util](#Informacion-util).
 ---
 
-## ⚙️   #Configuración del Entorno
+## ⚙️   #configuración del entorno
 
 ### 1️⃣ Clona el repositorio:
 
