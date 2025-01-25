@@ -1,6 +1,7 @@
 #  ** Proyecto Integrador: Análisis de Datos Mundiales** 🌎📊
 
-Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy 🎓. Hemos explorado la población y el tamaño geográfico de los países a nivel mundial, utilizando SQL para el análisis de datos y Python para la manipulación y visualización. Todo el proceso está documentado en GitHub.
+#### Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy 🎓. 
+#### Hemos explorado la población y el tamaño geográfico de los países a nivel mundial, utilizando SQL para el análisis de datos y Python para la manipulación y visualización. Todo el proceso está documentado en GitHub.
 ---
 
 
