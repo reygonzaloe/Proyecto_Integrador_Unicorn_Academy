@@ -6,7 +6,7 @@ Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy �
 
 ## 📚 **Contenido**
 
-- [Instalacion](#Instalacion)
+- [Configuración del Entorno](#Configuración_del_Entorno)
 - [Variables de Entorno](#Variable-de-entorno)
 - [Utilizacion](#Utilizacion)
 - [Resultados](#resultados)
