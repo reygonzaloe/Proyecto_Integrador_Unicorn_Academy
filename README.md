@@ -64,7 +64,8 @@ El proyecto incluye gráficos que representan:
      ```
 
 2. **Configurar la Base de Datos**:
-   - Crea una base de datos en MySQL llamada `proyecto_integrador`. Siguiendo los pasos detallos en la guia adjunta.
+   - Crea una base de datos en MySQL llamada `proyecto_integrador`, siguiendo los pasos detallos en la guia adjunta 
+     en la carpeta Anexos.
    - Importa los datos necesarios en las tablas `country`, `city` y `countrylanguage`. 
 
 
