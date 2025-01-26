@@ -69,6 +69,10 @@ El proyecto incluye gráficos que representan:
 
 3. **Ejecutar el Script**:
    - Ejecuta el archivo `proyecto_integrador.py` en tu entorno de Python.
+   - Antes de ejecutar el codigo, asegurate de cambiar USER por tu usuario y PASSWORD por tu contraseña correspondiente a tu Local Host de MySQL workbench
+    ---  
+   ```sql   
+      mysql.connector.connect(host="localhost", user="USER", passwd='PASSWORD')
 
 ## **Contribuciones**
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request.
