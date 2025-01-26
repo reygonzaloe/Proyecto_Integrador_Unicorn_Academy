@@ -13,7 +13,6 @@
 5. [Visualizaciones](#visualizaciones)
 6. [Instrucciones para Ejecutar el Proyecto](#instrucciones-para-ejecutar-el-proyecto)
 7. [Contribuciones](#contribuciones)
-8. [Licencia](#licencia)
 
 ## **Descripción del Proyecto**
 Este proyecto integra el uso de SQL y Python para analizar datos mundiales relacionados con la población, superficie y lenguas habladas en diferentes países. Utiliza una base de datos MySQL para almacenar y consultar información sobre países y ciudades, y emplea la biblioteca Pandas para el manejo de datos y Matplotlib para la visualización gráfica.
@@ -79,5 +78,4 @@ El proyecto incluye gráficos que representan:
 ## **Contribuciones**
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request.
 
-## **Licencia**
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
