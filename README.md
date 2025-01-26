@@ -64,8 +64,9 @@ El proyecto incluye gráficos que representan:
      ```
 
 2. **Configurar la Base de Datos**:
-   - Crea una base de datos en MySQL llamada `proyecto_integrador`.
-   - Importa los datos necesarios en las tablas `country`, `city` y `countrylanguage`
+   - Crea una base de datos en MySQL llamada `proyecto_integrador`. Siguiendo los pasos detallos en la guia adjunta.
+   - Importa los datos necesarios en las tablas `country`, `city` y `countrylanguage`. 
+
 
 3. **Ejecutar el Script**:
    - Ejecuta el archivo `proyecto_integrador.py` en tu entorno de Python.
