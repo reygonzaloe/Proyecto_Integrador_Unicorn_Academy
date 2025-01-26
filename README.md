@@ -1,4 +1,4 @@
-#  ** Proyecto Integrador: Análisis de Datos Mundiales** 🌎📊
+#  ** Proyecto Integrador: Análisis de Datos Mundiales ** 🌎📊
 
 #### Este proyecto es parte del bootcamp de análisis de datos en Unicorn Academy 🎓. 
 #### Hemos explorado la población y el tamaño geográfico de los países a nivel mundial, utilizando SQL para el análisis de datos y Python para la manipulación y visualización. Todo el proceso está documentado en GitHub.
@@ -74,7 +74,7 @@ El proyecto incluye gráficos que representan:
    - Antes de ejecutar el codigo, asegurate de cambiar USER por tu usuario y PASSWORD por tu contraseña correspondiente a tu Local Host de MySQL workbench
     ---  
    ```sql   
-      mysql.connector.connect(host="localhost", user="USER", passwd=¨PASSWORD")
+      mysql.connector.connect(host="localhost", user="USER", passwd="PASSWORD")
 
 ## **Contribuciones**
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request.
